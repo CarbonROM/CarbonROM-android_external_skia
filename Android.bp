@@ -855,6 +855,10 @@ cc_library {
     proprietary_whole_static_libs: [
         "libqc-skia",
     ],
+
+    lto: {
+        thin: true,
+    },
 }
 
 cc_test {
