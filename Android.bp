@@ -853,7 +853,7 @@ cc_library {
         "libwebp-encode",
     ],
     proprietary_whole_static_libs: [
-        "libqc-skia",
+        "libcr-skia",
     ],
 }
 
